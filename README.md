@@ -18,7 +18,7 @@ coverY: 0
 
 ### • Quickstart
 
-_**Installation**_
+#### _**Installation**_
 
 _`coming soon..`_
 
