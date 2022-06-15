@@ -1,6 +1,6 @@
 ---
 description: This is documention for wrapper for Boticord API.
-cover: .gitbook/assets/bannerDocsLib.png
+cover: .gitbook/assets/bannerDocsLib (1).png
 coverY: 0
 ---
 
