@@ -6,24 +6,25 @@ coverY: 0
 
 # Docs Boticord.Net
 
+## Docs Boticord.Net
+
 ### • Helpful links
 
-[<mark style="color:blue;">GitHub</mark>](https://github.com/boticord)<mark style="color:blue;"></mark>
+[<mark style="color:blue;">GitHub</mark>](https://github.com/boticord)
 
-<mark style="color:blue;"></mark>[<mark style="color:blue;">BotiCord</mark>](https://boticord.top/)
+[<mark style="color:blue;">BotiCord</mark>](https://boticord.top/)
 
-<mark style="color:blue;"></mark>[<mark style="color:blue;">BotiCord Support</mark>](https://discord.com/invite/hkHjW8a)
+[<mark style="color:blue;">BotiCord Support</mark>](https://discord.com/invite/hkHjW8a)
 
 ### • Quickstart
 
-#### _Installation_
+_**Installation**_
 
 _`coming soon..`_
 
-#### _Examples_
+_**Examples**_
 
-# This example uses Discord.Net to run discord bot
-__
+### This example uses Discord.Net to run discord bot
 
 ```csharp
 using System.Runtime.InteropServices.ComTypes;
@@ -74,15 +75,15 @@ async Task BotLog(LogMessage message)
 
 ### • Api Reference
 
-#### _Client API Reference_
+_**Client API Reference**_
 
 coming soon...
 
-#### _Models API Reference_
+_**Models API Reference**_
 
 coming soon...
 
-#### _Exceptions API Reference_
+_**Exceptions API Reference**_
 
 coming soon...
 
