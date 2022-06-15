@@ -27,7 +27,6 @@ _**Examples**_
 ### This example uses Discord.Net to run discord bot
 
 ```csharp
-using System.Runtime.InteropServices.ComTypes;
 using Discord.WebSocket;
 using Discord;
 using Boticord.Net;
