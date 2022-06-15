@@ -6,9 +6,21 @@ description: How to install and start
 
 ### _Installation_
 
-_`coming soon..`_
+#### Package Manager
 
-### Example usage
+```
+Install-Package Boticord.Net -Version 1.0.1
+```
+
+.NET CLI
+
+```
+dotnet add package Boticord.Net --version 1.0.1
+```
+
+[**Nuget packages**](https://www.nuget.org/packages/Boticord.Net/)****
+
+### _Example usage_
 
 This example uses [Discord.Net](https://github.com/discord-net/Discord.Net) to run discord bot
 

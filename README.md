@@ -20,7 +20,19 @@ coverY: 0
 
 #### _**Installation**_
 
-_`coming soon..`_
+Package Manager
+
+```
+Install-Package Boticord.Net -Version 1.0.1
+```
+
+.NET CLI
+
+```
+dotnet add package Boticord.Net --version 1.0.1
+```
+
+[**Nuget packages**](https://www.nuget.org/packages/Boticord.Net/)****
 
 _**Examples**_
 
