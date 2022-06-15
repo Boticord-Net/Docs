@@ -1,21 +1,69 @@
-# Welcome!
+---
+description: This is documention for wrapper for Boticord API.
+cover: .gitbook/assets/logo.png
+coverY: 0
+---
 
-## Welcome to MyAPI
+# Docs Boticord.Net
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+### • Helpful links
 
-## Want to jump right in?
+[<mark style="color:blue;">GitHub</mark>](https://github.com/boticord)<mark style="color:blue;"></mark>
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+<mark style="color:blue;"></mark>[<mark style="color:blue;">BotiCord</mark>](https://boticord.top/)
 
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
-{% endcontent-ref %}
+<mark style="color:blue;"></mark>[<mark style="color:blue;">BotiCord Support</mark>](https://discord.com/invite/hkHjW8a)
 
-## Want to deep dive?
+### • Quickstart
 
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
+#### _Installation_
 
-{% content-ref url="reference/api-reference/" %}
-[api-reference](reference/api-reference/)
+_`coming soon..`_
+
+#### _Examples_
+
+__
+
+```csharp
+using Discord.WebSocket;
+using Discord;
+using Boticord.Net;
+using Boticord.Net.Services;
+
+var botClient = new DiscordSocketClient();
+botClient.Ready += BotReady;
+
+var boticordClient = new BoticordClient(new BoticordConfig
+{
+    Token = "boticord token here"
+});
+
+await botClient.LoginAsync(TokenType.Bot, "bot token here");
+await botClient.StartAsync();
+
+await Task.Delay(-1);
+
+async Task BotReady()
+{
+    Console.WriteLine($"Logged into {botClient.CurrentUser}");
+    return Task.CompletedTask;
+}
+```
+
+### • Api Reference
+
+#### _Client API Reference_
+
+coming soon...
+
+#### _Models API Reference_
+
+coming soon...
+
+#### _Exceptions API Reference_
+
+coming soon...
+
+{% content-ref url="reference/api-reference.md" %}
+[api-reference.md](reference/api-reference.md)
 {% endcontent-ref %}
